@@ -12,9 +12,9 @@
     "dev": "ts-node ./src/index.ts"
   },
   "bin": {
-    "nt": "./bin/git-nt",
-    "git-nt": "./bin/git-nt",
-    "newtag": "./bin/git-nt"
+    "nt": "./bin/git-nt.js",
+    "git-nt": "./bin/git-nt.js",
+    "newtag": "./bin/git-nt.js"
   },
   "repository": {
     "type": "git",
