@@ -40,5 +40,5 @@ module.exports = {
 | 参数   | 说明    | 类型    | 是否必须 | 说明 |
 | ------ | ------------ | --------- | --- | --- |
 | tagHead   | tag开头的字符   | string   |  是  |  无  |
-| versionName | version字符 | boolean  |  是  |  无  |
+| versionName | version字符 | string  |  是  |  无  |
 | tagMessage | 打tag添加的message | string | 否 |  如果配置了此选项则优先使用，否则寻找命令行后面的参数  |
