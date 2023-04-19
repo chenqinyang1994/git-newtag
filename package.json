@@ -1,0 +1,45 @@
+{
+  "name": "git-newtag",
+  "version": "1.0.0",
+  "description": "根据配置规则自动生成新的tag推送到远端git",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "rollup -c",
+    "dev": "ts-node ./src/index.ts"
+  },
+  "bin": {
+    "nt": "./bin/git-nt",
+    "git-nt": "./bin/git-nt",
+    "newtag": "./bin/git-nt"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/chenqinyang1994/git-newtag.git"
+  },
+  "keywords": [
+    "git",
+    "tag",
+    "newtag",
+    "auto"
+  ],
+  "author": "892474885@qq.com",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/chenqinyang1994/git-newtag/issues"
+  },
+  "homepage": "https://github.com/chenqinyang1994/git-newtag#readme",
+  "devDependencies": {
+    "@rollup/plugin-typescript": "^11.1.0",
+    "@types/node": "^18.15.11",
+    "rollup": "^3.20.4",
+    "ts-node": "^10.9.1",
+    "tslib": "^2.5.0",
+    "typescript": "^5.0.4"
+  },
+  "dependencies": {
+    "dayjs": "^1.11.7",
+    "simple-git": "^3.17.0"
+  },
+  "type": "module"
+}
