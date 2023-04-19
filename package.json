@@ -2,7 +2,10 @@
   "name": "git-newtag",
   "version": "1.0.0",
   "description": "根据配置规则自动生成新的tag推送到远端git",
-  "main": "index.js",
+  "main": "dist/git-nt.js",
+  "files": [
+    "dist/*.js"
+  ],
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "build": "rollup -c",
@@ -21,7 +24,8 @@
     "git",
     "tag",
     "newtag",
-    "auto"
+    "gittag",
+    "auto gittag"
   ],
   "author": "892474885@qq.com",
   "license": "ISC",
