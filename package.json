@@ -44,6 +44,5 @@
   "dependencies": {
     "dayjs": "^1.11.7",
     "simple-git": "^3.17.0"
-  },
-  "type": "module"
+  }
 }
