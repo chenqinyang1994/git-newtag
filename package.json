@@ -1,6 +1,6 @@
 {
   "name": "git-newtag",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "根据配置规则自动生成新的tag推送到远端git",
   "main": "dist/git-nt.js",
   "files": [
